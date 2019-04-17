@@ -1835,18 +1835,7 @@ namespace PlayFab
             GenericErrorCodesCatalogItemIdInvalid,
             GenericErrorCodesCatalogSearchParameterInvalid,
             GenericErrorCodesCatalogFeatureDisabled,
-            GenericErrorCodesCatalogConfigMissing,
-            GenericErrorCodesCatalogConfigTooManyContentTypes,
-            GenericErrorCodesCatalogConfigContentTypeTooLong,
-            GenericErrorCodesCatalogConfigTooManyTags,
-            GenericErrorCodesCatalogConfigTagTooLong,
-            GenericErrorCodesCatalogConfigInvalidDeepLinkObject,
-            GenericErrorCodesCatalogConfigInvalidDeepLinkPlatform,
-            GenericErrorCodesCatalogConfigInvalidDeepLinkFormat,
-            GenericErrorCodesCatalogConfigInvalidDisplayPropertyObject,
-            GenericErrorCodesCatalogConfigInvalidDisplayPropertyName,
-            GenericErrorCodesCatalogConfigInvalidDisplayPropertyType,
-            GenericErrorCodesCatalogConfigDisplayPropertyMappingLimit,
+            GenericErrorCodesCatalogConfigInvalid,
             GenericErrorCodesExportInvalidStatusUpdate,
             GenericErrorCodesExportInvalidPrefix,
             GenericErrorCodesExportBlobContainerDoesNotExist,
@@ -2332,18 +2321,7 @@ namespace PlayFab
             if (input == GenericErrorCodesCatalogItemIdInvalid) output = Json::Value("CatalogItemIdInvalid");
             if (input == GenericErrorCodesCatalogSearchParameterInvalid) output = Json::Value("CatalogSearchParameterInvalid");
             if (input == GenericErrorCodesCatalogFeatureDisabled) output = Json::Value("CatalogFeatureDisabled");
-            if (input == GenericErrorCodesCatalogConfigMissing) output = Json::Value("CatalogConfigMissing");
-            if (input == GenericErrorCodesCatalogConfigTooManyContentTypes) output = Json::Value("CatalogConfigTooManyContentTypes");
-            if (input == GenericErrorCodesCatalogConfigContentTypeTooLong) output = Json::Value("CatalogConfigContentTypeTooLong");
-            if (input == GenericErrorCodesCatalogConfigTooManyTags) output = Json::Value("CatalogConfigTooManyTags");
-            if (input == GenericErrorCodesCatalogConfigTagTooLong) output = Json::Value("CatalogConfigTagTooLong");
-            if (input == GenericErrorCodesCatalogConfigInvalidDeepLinkObject) output = Json::Value("CatalogConfigInvalidDeepLinkObject");
-            if (input == GenericErrorCodesCatalogConfigInvalidDeepLinkPlatform) output = Json::Value("CatalogConfigInvalidDeepLinkPlatform");
-            if (input == GenericErrorCodesCatalogConfigInvalidDeepLinkFormat) output = Json::Value("CatalogConfigInvalidDeepLinkFormat");
-            if (input == GenericErrorCodesCatalogConfigInvalidDisplayPropertyObject) output = Json::Value("CatalogConfigInvalidDisplayPropertyObject");
-            if (input == GenericErrorCodesCatalogConfigInvalidDisplayPropertyName) output = Json::Value("CatalogConfigInvalidDisplayPropertyName");
-            if (input == GenericErrorCodesCatalogConfigInvalidDisplayPropertyType) output = Json::Value("CatalogConfigInvalidDisplayPropertyType");
-            if (input == GenericErrorCodesCatalogConfigDisplayPropertyMappingLimit) output = Json::Value("CatalogConfigDisplayPropertyMappingLimit");
+            if (input == GenericErrorCodesCatalogConfigInvalid) output = Json::Value("CatalogConfigInvalid");
             if (input == GenericErrorCodesExportInvalidStatusUpdate) output = Json::Value("ExportInvalidStatusUpdate");
             if (input == GenericErrorCodesExportInvalidPrefix) output = Json::Value("ExportInvalidPrefix");
             if (input == GenericErrorCodesExportBlobContainerDoesNotExist) output = Json::Value("ExportBlobContainerDoesNotExist");
@@ -2830,18 +2808,7 @@ namespace PlayFab
             if (inputStr == "CatalogItemIdInvalid") output = GenericErrorCodesCatalogItemIdInvalid;
             if (inputStr == "CatalogSearchParameterInvalid") output = GenericErrorCodesCatalogSearchParameterInvalid;
             if (inputStr == "CatalogFeatureDisabled") output = GenericErrorCodesCatalogFeatureDisabled;
-            if (inputStr == "CatalogConfigMissing") output = GenericErrorCodesCatalogConfigMissing;
-            if (inputStr == "CatalogConfigTooManyContentTypes") output = GenericErrorCodesCatalogConfigTooManyContentTypes;
-            if (inputStr == "CatalogConfigContentTypeTooLong") output = GenericErrorCodesCatalogConfigContentTypeTooLong;
-            if (inputStr == "CatalogConfigTooManyTags") output = GenericErrorCodesCatalogConfigTooManyTags;
-            if (inputStr == "CatalogConfigTagTooLong") output = GenericErrorCodesCatalogConfigTagTooLong;
-            if (inputStr == "CatalogConfigInvalidDeepLinkObject") output = GenericErrorCodesCatalogConfigInvalidDeepLinkObject;
-            if (inputStr == "CatalogConfigInvalidDeepLinkPlatform") output = GenericErrorCodesCatalogConfigInvalidDeepLinkPlatform;
-            if (inputStr == "CatalogConfigInvalidDeepLinkFormat") output = GenericErrorCodesCatalogConfigInvalidDeepLinkFormat;
-            if (inputStr == "CatalogConfigInvalidDisplayPropertyObject") output = GenericErrorCodesCatalogConfigInvalidDisplayPropertyObject;
-            if (inputStr == "CatalogConfigInvalidDisplayPropertyName") output = GenericErrorCodesCatalogConfigInvalidDisplayPropertyName;
-            if (inputStr == "CatalogConfigInvalidDisplayPropertyType") output = GenericErrorCodesCatalogConfigInvalidDisplayPropertyType;
-            if (inputStr == "CatalogConfigDisplayPropertyMappingLimit") output = GenericErrorCodesCatalogConfigDisplayPropertyMappingLimit;
+            if (inputStr == "CatalogConfigInvalid") output = GenericErrorCodesCatalogConfigInvalid;
             if (inputStr == "ExportInvalidStatusUpdate") output = GenericErrorCodesExportInvalidStatusUpdate;
             if (inputStr == "ExportInvalidPrefix") output = GenericErrorCodesExportInvalidPrefix;
             if (inputStr == "ExportBlobContainerDoesNotExist") output = GenericErrorCodesExportBlobContainerDoesNotExist;
